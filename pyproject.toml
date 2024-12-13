@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blog-materials"
+version = "0.1.0"
+description = "Notebooks for different experiments"
+authors = ["Lang Monk <langMonk93@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
